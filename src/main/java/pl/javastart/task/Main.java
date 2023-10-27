@@ -19,7 +19,7 @@ public class Main {
         product2.setPrice(100.00);
         product2.setCategory("Owoce");
         Brutto brutto = new Brutto();
-        System.out.println("Kwota netto: "+product2.getPrice());
-        brutto.showBruttoPrice(product2);
+        System.out.println("Kwota netto: " + product1.getPrice());
+        brutto.showBruttoPrice(product1);
     }
 }
