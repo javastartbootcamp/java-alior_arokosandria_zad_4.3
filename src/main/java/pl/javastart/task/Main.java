@@ -17,8 +17,9 @@ public class Main {
         product2.setName("Stół");
         product2.setDescribe("do pokoju");
         product2.setPrice(100.00);
+        product2.setCategory("Owoce");
         Brutto brutto = new Brutto();
-        brutto.priceBrutto(product2);
-
+        System.out.println("Kwota netto: "+product2.getPrice());
+        brutto.showBruttoPrice(product2);
     }
 }
